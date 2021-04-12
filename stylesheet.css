@@ -413,3 +413,79 @@ h3 {     font-size: 15px;}
     
 
 }
+
+/*----Extra effects  */
+
+.brand-title{
+	cursor: pointer;
+    animation: movedown 1s linear 1;
+    animation-delay: 1s;
+	visibility: hidden;
+    animation-fill-mode: forwards;
+}
+
+@keyframes movedown{
+
+	0%{
+	transform: translateY(-100px);
+	visibility: visible;
+	}
+
+	100%{
+	transform: translateY(0px);
+	visibility: visible;
+	}
+
+
+}
+
+.navbar-links{
+    animation: movedown 1s linear 1;
+    animation-delay: 2s;
+	visibility: hidden;
+    animation-fill-mode: forwards;
+}
+
+.banner_content{
+    animation: moveright 1s linear 1;
+    animation-delay: 3s;
+	visibility: hidden;
+    animation-fill-mode: forwards;
+}
+
+@keyframes moveright{
+
+	0%{
+	transform: translateX(-100px);
+	visibility: visible;
+	}
+
+	100%{
+	transform: translateX(0px);
+	visibility: visible;
+	}
+
+
+}
+
+div#sec-pageimg img{
+    animation: zoomin 1s linear 1;
+    animation-delay: 4s;
+	visibility: hidden;
+    animation-fill-mode: forwards;
+}
+
+@keyframes zoomin{
+
+	0%{
+	transform: scale(0.5);
+	visibility: visible;
+	}
+
+	100%{
+	transform: scale(1);
+	visibility: visible;
+	}
+
+
+}
